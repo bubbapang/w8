@@ -1,0 +1,7 @@
+<h3>Notes for <%= @user %></h3>
+
+<% @user.notes.each do |note|%>
+<%= note %>
+<% end %>
+
+<h3>Notes for <%= @user.email %></h3>

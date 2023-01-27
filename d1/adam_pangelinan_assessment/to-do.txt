@@ -1,0 +1,26 @@
+61/76
+15 mistakes allowed
+
+readme
+models
+migrations
+    create tables
+models
+user: ASPIRE
+application controller: HRCLLL
+specs
+views
+browser debugging
+
+its good that I understand in abstraction, with oversight. a philosopher's caring
+new state of mind
+
+
+
+archive
+<% unless logged_in? %>
+      <form action="<%= new_session_url %>" method="POST">
+          <input type="hidden" name="_method" value="GET">
+          <input type="submit" id="sing-in" value="Sign In">
+      </form>
+    <% end %>
